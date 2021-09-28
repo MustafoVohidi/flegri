@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio item</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/three.js"></script>
+    <script src="./js/vanta.net.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <a href="#" id="logo_header">
+            <img src="./image/logo.png" alt="">
+        </a>
+
+        <button type="button" class="menu_button" id="menu_button" onclick="openMenu()">
+            <span class="nos"></span>
+            <span class="ncs"></span>
+            <span class="nbs"></span>
+            <div class="menu_button_text">
+                Menu
+            </div>
+        </button>
+        <div class="progress_bar">
+            <div class="progress_bar_color">
+            </div>
+        </div>
+
+        <div class="header_social">
+            <ul>
+                <li>
+                    <a href="#" target="_blank">
+                        FB
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        Tw
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        Ln
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        Be
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <button class="folio_share" id="folio_share" onclick="folioShare()">
+            <div class="folio_btn_item">
+                <span class="folio_dot"></span>
+                <span class="folio_dot"></span>
+                <span class="folio_dot"></span>
+                <span class="folio_dot"></span>
+            </div>
+            <div class="folio_tooltip">
+                Share
+            </div>
+        </button>
+
+        <div id="share-wrapper" class="share_wrapper">
+            <button class="close-share-btn" onclick="closeShareBtn()">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="share_container">
+                <a href="#">
+                    facebook
+                </a>
+                <a href="#">
+                    facebook
+                </a>
+                <a href="#">
+                    facebook
+                </a>
+                <a href="#">
+                    facebook
+                </a>
+                <a href="#">
+                    facebook
+                </a>
+            </div>
+        </div>
+
+        <div id="menu_all">
+            <div class="menu_back_1">
+
+            </div>
+            <div class="menu_list_all">
+                <a href="#" class="logo">
+                    <img src="./image/logo2.png" alt="">
+                </a>
+                <span class="vertical_line"></span>
+                <div id="list_category">
+                    <ul>
+                        <li>
+                            <a href="#">Home <i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li>
+                            <a href="#">Portfolios <i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li>
+                            <a href="#">Contacts <i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li>
+                            <a href="#">Blog <i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li>
+                            <a href="#">Pages <i class="fa fa-angle-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="menu_bukvy" data-target-resolver>
+                    menu
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <div id="top_header" class="breadcrumb">
+        <div class="page-subtitle">
+            <span>Carousel</span>
+        </div>
+        <a href="#" class="single_page_fixed">
+            <i class="fa fa-envelope"></i>
+            <span>
+                Get in touch
+            </span>
+        </a>
+    </div>
+
+    <div id="content" class="home_slider">
+
+
+
+        <section class="info_content">
+            <!-- основная часть контента -->
+            <div class="content_info_home">
+
+                <!-- About us -->
+                <div id="section_info1">
+                    <div class="title_about_us">
+                        <h2>
+                            About our <span>agency</span>
+                        </h2>
+                        <p class="subtitle">
+                            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. MAECENAS IN PULVINAR NEQUE. NULLA
+                            FINIBUS LOBORTIS PULVINAR.
+                        </p>
+                    </div>
+
+                    <div class="container">
+
+                        <div class="block_info_about">
+                            <div class="images_grid">
+                                <div class="grid_item_image">
+
+                                    <img src="./image/grids.jpg" alt="">
+                                    <a href="./image/grids.jpg" data-fancybox>
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                </div>
+                                <div class="grid_item_image">
+                                    <img src="./image/grids.jpg" alt="">
+                                    <a href="./image/grids.jpg" data-fancybox>
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                </div>
+                                <div class="grid_item_image">
+                                    <img src="./image/grids.jpg" alt="">
+                                    <a href="./image/grids.jpg" data-fancybox>
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                </div>
+                                <div class="grid_item_image grid_4">
+                                    <img src="./image/grids.jpg" alt="">
+                                    <a href="./image/grids.jpg" data-fancybox>
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                </div>
+                                <div class="grid_item_image">
+                                    <img src="./image/grids.jpg" alt="">
+                                    <a href="./image/grids.jpg" data-fancybox>
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                </div>
+                                <div class="grid_item_image">
+                                    <img src="./image/grids.jpg" alt="">
+                                    <a href="./image/grids.jpg" data-fancybox>
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                      
+                        <div class="info_ab">
+                            <h3>
+                                Award Winning Architecture <br>
+                                Design Agency
+                            </h3>
+                            <p>
+                                Our team takes over everything, from an idea and concept development to realization.
+                                We
+                                believe in traditions and incorporate them within our innovations. All our projects
+                                incorporate a unique artistic image and functional solutions. Client is the soul of
+                                the
+                                project. Our main goal is to illustrate his/hers values and individuality through
+                                design.
+                            </p>
+                            <p>
+                                Our team takes over everything, from an idea and concept development to realization.
+                                We
+                                believe in traditions and incorporate them within our innovations. All our projects
+                                incorporate a unique artistic image and functional solutions.
+                            </p>
+
+                        </div>
+
+                        <div class="custom_skills">
+                            <h3>
+                                Ollivias Skills
+                            </h3>
+
+                            <div class="block_skills">
+                                <div class="photoshop skills_item_percent">
+                                    <div class="text_sk">
+                                        <h5>
+                                            photoshop
+                                        </h5>
+                                        <p>
+                                            90%
+                                        </p>
+                                    </div>
+                                    <div class="skillbar-bg">
+                                        <div class="custom-skillbar">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="google_scketchup skills_item_percent">
+                                    <div class="text_sk">
+                                        <h5>
+                                            photoshop
+                                        </h5>
+                                        <p>
+                                            90%
+                                        </p>
+                                    </div>
+                                    <div class="skillbar-bg">
+                                        <div class="custom-skillbar">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="3d_max skills_item_percent">
+                                    <div class="text_sk">
+                                        <h5>
+                                            photoshop
+                                        </h5>
+                                        <p>
+                                            90%
+                                        </p>
+                                    </div>
+                                    <div class="skillbar-bg">
+                                        <div class="custom-skillbar">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="illustrator skills_item_percent">
+                                    <div class="text_sk">
+                                        <h5>
+                                            photoshop
+                                        </h5>
+                                        <p>
+                                            90%
+                                        </p>
+                                    </div>
+                                    <div class="skillbar-bg">
+                                        <div class="custom-skillbar">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="design_skills skills_item_percent">
+                                    <div class="text_sk">
+                                        <h5>
+                                            photoshop
+                                        </h5>
+                                        <p>
+                                            90%
+                                        </p>
+                                    </div>
+                                    <div class="skillbar-bg">
+                                        <div class="custom-skillbar">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <h3>
+                            Project Roadmap
+                        </h3>
+
+                        <div class="accordion_info">
+                            <div class="accord_item">
+                                <div class="accord_head">
+                                    <h4>
+                                        Details option
+                                    </h4>
+                                    <button type="button">
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                </div>
+                                <div class="accord_body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At corporis dolorum
+                                        iste ad
+                                        quaerat aliquid assumenda, nobis facere modi sapiente consectetur ipsam dicta
+                                        excepturi mollitia nesciunt culpa corrupti blanditiis aperiam?
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accord_item">
+                                <div class="accord_head">
+                                    <h4>
+                                        Details option
+                                    </h4>
+                                    <button type="button">
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                </div>
+                                <div class="accord_body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At corporis dolorum
+                                        iste ad
+                                        quaerat aliquid assumenda, nobis facere modi sapiente consectetur ipsam dicta
+                                        excepturi mollitia nesciunt culpa corrupti blanditiis aperiam?
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accord_item">
+                                <div class="accord_head">
+                                    <h4>
+                                        Details option
+                                    </h4>
+                                    <button type="button">
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                </div>
+                                <div class="accord_body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At corporis dolorum
+                                        iste ad
+                                        quaerat aliquid assumenda, nobis facere modi sapiente consectetur ipsam dicta
+                                        excepturi mollitia nesciunt culpa corrupti blanditiis aperiam?
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        
+                        <div class="block_info_total">
+
+
+                            <ul>
+                                <li>
+                                    <h3>
+                                        145
+                                    </h3>
+                                    <p>
+                                        finished project
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3>
+                                        357
+                                    </h3>
+                                    <p>
+                                        happy customers
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3>
+                                        825
+                                    </h3>
+                                    <p>
+                                        working hours
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3>
+                                        15
+                                    </h3>
+                                    <p>
+                                        awards won
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- лева часть контента -->
+            <div class="content_items_info_home">
+                <div class="scroll-down-mouses">
+                    <div class="mouse">
+                        <div class="scrolling">
+                        </div>
+                    </div>
+                </div>
+                <div class="background_black"></div>
+                <div class="fwc_dec_top">
+
+                </div>
+                <div class="fwc_dec_right">
+
+                </div>
+                <div class="fixed-column-wrap_dec"></div>
+                <div id="section_item1" class="section_item1">
+                    <img src="./image/item.jpg" alt="">
+                    <div id="desc_title_item" class="desc_title_item">
+                        <h2>
+                            1.0 About us
+                        </h2>
+                        <p>
+                            sector down
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="height-emulator">
+
+    </div>
+    <footer>
+        <div class="footer_decor" id="animation_footer">
+
+        </div>
+        <div class="footer_top">
+            <div class="pelzari_about_widget">
+                <a href="#" class="footer_logo">
+                    <img src="./image/logo2.png" alt="">
+                </a>
+                <p class="footer_text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nisi facilis incidunt consequuntur,
+                    dolores corrupti dignissimos architecto magni cupiditate eum inventore alias adipisci quaerat
+                    voluptatem. Animi in quasi neque veritatis.
+                </p>
+            </div>
+
+            <div class="pelzari_about_widget">
+                <div class="footer_header_top">
+                    contacts
+                    <span>01.</span>
+                </div>
+                <div class="footer_contacts">
+                    <ul>
+                        <li>
+                            <span>Write:</span>
+                            <a href="#">
+                                YOURMAIL@DOMAIN.COM
+                            </a>
+                        </li>
+                        <li>
+                            <span>Write:</span>
+                            <a href="#">
+                                YOURMAIL@DOMAIN.COM
+                            </a>
+                        </li>
+                        <li>
+                            <span>Write:</span>
+                            <a href="#">
+                                YOURMAIL@DOMAIN.COM
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <a href="#" class="button_grey">
+                    Get in touch
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+
+            <div class="pelzari_about_widget">
+                <div class="footer_header_top">
+                    contacts
+                    <span>02.</span>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, voluptas eaque dolorum
+                    similique ipsa excepturi corrupti labore?
+                </p>
+                <div class="form_newslatter">
+                    <input type="email" name="email" placeholder="Ваш email">
+                    <input type="submit" value="Отправить" class="button_black">
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="privaty_res">
+                © Pelzari 2021 / All rights reserved.
+            </div>
+            <div class="footer_social">
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">
+                            FB
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            Tw
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            Ln
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            Be
+                        </a>
+                    </li>
+                </ul>
+                <button class="to_top" type="button">
+                    <i class="fa fa-long-arrow-up"></i>
+                </button>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

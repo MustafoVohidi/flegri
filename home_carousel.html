@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio item</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+      />
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/jquery.js"></script>
+        <script src="./js/three.js"></script>
+        <script src="./js/vanta.net.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+        
+    
+    </head>
+
+<body>
+    <header>
+        <a href="#" id="logo_header">
+            <img src="./image/logo.png" alt="">
+        </a>
+
+        <button type="button" class="menu_button" id="menu_button" onclick="openMenu()">
+            <span class="nos"></span>
+            <span class="ncs"></span>
+            <span class="nbs"></span>
+            <div class="menu_button_text">
+                Menu
+            </div>
+        </button>
+        <div class="progress_bar">
+            <div class="progress_bar_color">
+            </div>
+        </div>
+
+        <div class="header_social">
+            <ul>
+                <li>
+                    <a href="#" target="_blank">
+                        FB
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        Tw
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        Ln
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        Be
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <button class="folio_share" id="folio_share" onclick="folioShare()">
+            <div class="folio_btn_item">
+                <span class="folio_dot"></span>
+                <span class="folio_dot"></span>
+                <span class="folio_dot"></span>
+                <span class="folio_dot"></span>
+            </div>
+            <div class="folio_tooltip">
+                Share
+            </div>
+        </button>
+
+        <div id="share-wrapper" class="share_wrapper">
+            <button class="close-share-btn" onclick="closeShareBtn()">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="share_container">
+                <a href="#">
+                    facebook
+                </a>
+                <a href="#">
+                    facebook
+                </a>
+                <a href="#">
+                    facebook
+                </a>
+                <a href="#">
+                    facebook
+                </a>
+                <a href="#">
+                    facebook
+                </a>
+            </div>
+        </div>
+
+        <div id="menu_all">
+            <div class="menu_back_1">
+
+            </div>
+            <div class="menu_list_all">
+                <a href="#" class="logo">
+                    <img src="./image/logo2.png" alt="">
+                </a>
+                <span class="vertical_line"></span>
+                <div id="list_category">
+                    <ul>
+                        <li>
+                            <a href="#">Home <i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li>
+                            <a href="#">Portfolios <i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li>
+                            <a href="#">Contacts <i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li>
+                            <a href="#">Blog <i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li>
+                            <a href="#">Pages <i class="fa fa-angle-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="menu_bukvy"data-target-resolver>
+                    menu
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <div id="top_header" class="breadcrumb">
+        <div class="page-subtitle">
+            <span>Carousel</span>
+        </div>
+        <a href="#" class="single_page_fixed">
+            <i class="fa fa-envelope"></i>
+            <span>
+                Get in touch
+            </span>
+        </a>
+    </div>
+
+    <div id="content" class="home_slider">
+ 
+        <section class="home_carousel_1">
+
+        </section>
+
+
+        <section class="info_content">
+            <!-- основная часть контента -->
+            <div class="content_info_home">
+                <!-- Футер меню контента -->
+                <div class="foot_menu_info_home">
+                    <div class="container">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    about us
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    cases
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    services
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    team
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    clients
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="arrowpagenav">
+                        <a href="#" target="_self" class="arrow_msc">
+                            <i class="fa fa-angle-up"></i>
+                        </a>
+                        <a href="#" target="_self" class="arrow_msc">
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- About us -->
+                <div id="section_info1">
+                    <div class="title_about_us">
+                        <h2>
+                            About our <span>agency</span>
+                        </h2>
+                        <p class="subtitle">
+                            LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. MAECENAS IN PULVINAR NEQUE. NULLA
+                            FINIBUS LOBORTIS PULVINAR.
+                        </p>
+                    </div>
+
+                    <div class="container">
+
+                        <div class="block_info_about">
+                            <div class="image_ab">
+                                <img src="./image/about.jpg" alt="">
+                            </div>
+                            <div class="info_ab">
+                                <h3>
+                                    Award Winning Architecture <br>
+                                    Design Agency
+                                </h3>
+                                <p>
+                                    Our team takes over everything, from an idea and concept development to realization.
+                                    We
+                                    believe in traditions and incorporate them within our innovations. All our projects
+                                    incorporate a unique artistic image and functional solutions. Client is the soul of
+                                    the
+                                    project. Our main goal is to illustrate his/hers values and individuality through
+                                    design.
+                                </p>
+                                <p>
+                                    Our team takes over everything, from an idea and concept development to realization.
+                                    We
+                                    believe in traditions and incorporate them within our innovations. All our projects
+                                    incorporate a unique artistic image and functional solutions.
+                                </p>
+                                <div class="tags_ab">
+                                    <span class="title">
+                                        what we do:
+                                    </span>
+                                    <a href="#">Architecture</a>
+                                    <a href="#">Design</a>
+                                    <a href="#">Interier</a>
+                                </div>
+                                <a href="#" class="button_black">
+                                    our works
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="block_info_total">
+                            <ul>
+                                <li>
+                                    <h3>
+                                        145
+                                    </h3>
+                                    <p>
+                                        finished project
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3>
+                                        357
+                                    </h3>
+                                    <p>
+                                        happy customers
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3>
+                                        825
+                                    </h3>
+                                    <p>
+                                        working hours
+                                    </p>
+                                </li>
+                                <li>
+                                    <h3>
+                                        15
+                                    </h3>
+                                    <p>
+                                        awards won
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Featured project -->
+                <div class="section_featured_projects">
+                    <div class="fpst">
+                        <div>
+                            <h2>
+                                featured <span>project</span>
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cumque nesciunt, obcaecati
+                                iste
+                                fugiat rem error modi aspernatur eum atque, nam eos numquam. Minus quas quibusdam sit,
+                                suscipit
+                                itaque placeat.
+                            </p>
+                        </div>
+                        <a href="#" class="button_grey">
+                            view all cases
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+
+                    </div>
+
+
+                    <div class="swiper_slider_seatured">
+                        <div class="swiper featured_swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="images">
+                                        <img src="./image/featured_project.jpg" alt="">
+                                        <h3>
+                                            Design
+                                        </h3>
+                                        <p class="num">
+                                            04
+                                        </p>
+                                    </div>
+                                    <div class="text_prew">
+                                        <p>
+                                            white walls hotel
+                                        </p>
+                                        <a href="#" class="button_grey">
+                                            <i class="fa fa-long-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="images">
+                                        <img src="./image/featured_project.jpg" alt="">
+                                        <h3>
+                                            Design
+                                        </h3>
+                                        <p class="num">
+                                            04
+                                        </p>
+                                    </div>
+                                    <div class="text_prew">
+                                        <p>
+                                            white walls hotel
+                                        </p>
+                                        <a href="#" class="button_grey">
+                                            <i class="fa fa-long-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="images">
+                                        <img src="./image/featured_project.jpg" alt="">
+                                        <h3>
+                                            Design
+                                        </h3>
+                                        <p class="num">
+                                            04
+                                        </p>
+                                    </div>
+                                    <div class="text_prew">
+                                        <p>
+                                            white walls hotel
+                                        </p>
+                                        <a href="#" class="button_grey">
+                                            <i class="fa fa-long-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="images">
+                                        <img src="./image/featured_project.jpg" alt="">
+                                        <h3>
+                                            Design
+                                        </h3>
+                                        <p class="num">
+                                            04
+                                        </p>
+                                    </div>
+                                    <div class="text_prew">
+                                        <p>
+                                            white walls hotel
+                                        </p>
+                                        <a href="#" class="button_grey">
+                                            <i class="fa fa-long-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper_button-next">
+                                <i class="fa fa-angle-left"></i>
+                            </div>
+                            <div class="swiper_button-prev">
+                                <i class="fa fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- services provided -->
+                <div class="section section_service_provided">
+                    <div class="heading_text">
+                        <h2>
+                            Services <span>provided</span>
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae deleniti alias tenetur
+                            dolores ipsum, commodi reiciendis voluptatibus ipsa id voluptatem vel quasi cupiditate,
+                            dolorum dicta eum! Veniam eius quam mollitia?
+                        </p>
+                    </div>
+
+                    <div class="blocks_services">
+                        <div class="image">
+                            <img src="./image/block-services.jpg" alt="">
+                            <span>01</span>
+                        </div>
+                        <div class="info">
+                            <h3>
+                                Archtecture
+                            </h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque doloribus ut rerum?
+                                Cupiditate similique ducimus ratione possimus ipsum cum,
+                            </p>
+
+                            <ul>
+                                <li>
+                                    Concept
+                                </li>
+                                <li>
+                                    Concept
+                                </li>
+                                <li>
+                                    Concept
+                                </li>
+
+                            </ul>
+
+                            <a href="#" class="button_black">
+                                view details
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="blocks_services">
+                        <div class="image">
+                            <img src="./image/block-services.jpg" alt="">
+                            <span>01</span>
+                        </div>
+                        <div class="info">
+                            <h3>
+                                Archtecture
+                            </h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque doloribus ut rerum?
+                                Cupiditate similique ducimus ratione possimus ipsum cum,
+                            </p>
+
+                            <ul>
+                                <li>
+                                    Concept
+                                </li>
+                                <li>
+                                    Concept
+                                </li>
+                                <li>
+                                    Concept
+                                </li>
+
+                            </ul>
+
+                            <a href="#" class="button_black">
+                                view details
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="blocks_services">
+                        <div class="image">
+                            <img src="./image/block-services.jpg" alt="">
+                            <span>01</span>
+                        </div>
+                        <div class="info">
+                            <h3>
+                                Archtecture
+                            </h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque doloribus ut rerum?
+                                Cupiditate similique ducimus ratione possimus ipsum cum,
+                            </p>
+
+                            <ul>
+                                <li>
+                                    Concept
+                                </li>
+                                <li>
+                                    Concept
+                                </li>
+                                <li>
+                                    Concept
+                                </li>
+
+                            </ul>
+
+                            <a href="#" class="button_black">
+                                view details
+                            </a>
+                        </div>
+                    </div>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus quidem minima
+                        praesentium sit reprehenderit perferendis adipisci modi ipsum magni perspiciatis dolorem,
+                        corrupti natus accusantium dolor, illo unde, sed molestias.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus quidem minima
+                        praesentium sit reprehenderit perferendis adipisci modi ipsum magni perspiciatis dolorem,
+                        corrupti natus accusantium dolor, illo unde, sed molestias.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellendus quidem minima
+                        praesentium sit reprehenderit perferendis adipisci modi ipsum magni perspiciatis dolorem,
+                        corrupti natus accusantium dolor, illo unde, sed molestias.
+                    </p>
+
+                    <a href="#" class="button_black">
+                        get in touch
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+
+                <!-- our video presentation -->
+                <div class="section section_presentation">
+                    <div class="block_presentation">
+                        <div class="text_info">
+                            <h2>
+                                our viseo <span>
+                                    presentation
+                                </span>
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio eveniet optio fugit
+                                saepe a? Perspiciatis quia eveniet, facere, veniam odit adipisci laborum quidem harum
+                                accusantium quaerat minus vel, illo optio!
+                            </p>
+
+                            <a href="#" class="button_grey">
+                                our youtube chanel
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </div>
+                        <div class="video">
+                            <img src="./image/video.jpg" alt="">
+                            <a href="#" class="video_box_btn">
+                                <i class="fa fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- our awesome team -->
+                <div class="section section_awesome_team">
+                    <div class="heading_text">
+                        <h2>
+                            our awesome <span>team</span>
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam exercitationem, voluptates
+                            voluptas maiores odio facilis incidunt id aspernatur sit, cum sunt fugiat, perspiciatis
+                            quibusdam deleniti minima molestiae repellendus quae deserunt.
+                        </p>
+                    </div>
+
+                    <div class="blocks_team">
+
+                        <div class="blocks_team_item">
+                            <div class="image">
+                                <div class="overlay"></div>
+                                <img src="./image/baba.jpg" alt="">
+                                <a href="#" class="button_grey view_det">
+                                    view details
+                                </a>
+
+                                <div class="btn_groups">
+                                    <a href="#" class="button_grey btn_soc">
+                                        Fb
+                                    </a>
+                                    <a href="#" class="button_grey btn_soc">
+                                        Ln
+                                    </a>
+                                    <a href="#" class="button_grey btn_soc">
+                                        Tw
+                                    </a>
+                                    <a href="#" class="button_grey btn_soc">
+                                        Vk
+                                    </a>
+                                </div>
+                                <span>
+                                    01.
+                                </span>
+                            </div>
+
+                            <div class="info">
+                                <h3>
+                                    <a href="#">
+                                        Alica Limishenko
+                                    </a>
+                                </h3>
+
+                                <div class="spec">
+                                    Architect / Designer
+                                </div>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatum
+                                    sapiente, deserunt temporibus nihil quis quia eveniet eos repellendus? Architecto
+                                    aspernatur, nobis quidem itaque nulla quibusdam numquam alias! Animi, explicabo?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="blocks_team_item">
+                            <div class="image">
+                                <div class="overlay"></div>
+                                <img src="./image/baba.jpg" alt="">
+                                <a href="#" class="button_grey view_det">
+                                    view details
+                                </a>
+
+                                <div class="btn_groups">
+                                    <a href="#" class="button_grey btn_soc">
+                                        Fb
+                                    </a>
+                                    <a href="#" class="button_grey btn_soc">
+                                        Ln
+                                    </a>
+                                    <a href="#" class="button_grey btn_soc">
+                                        Tw
+                                    </a>
+                                    <a href="#" class="button_grey btn_soc">
+                                        Vk
+                                    </a>
+                                </div>
+                                <span>
+                                    01.
+                                </span>
+                            </div>
+
+                            <div class="info">
+                                <h3>
+                                    <a href="#">
+                                        Alica Limishenko
+                                    </a>
+                                </h3>
+
+                                <div class="spec">
+                                    Architect / Designer
+                                </div>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatum
+                                    sapiente, deserunt temporibus nihil quis quia eveniet eos repellendus? Architecto
+                                    aspernatur, nobis quidem itaque nulla quibusdam numquam alias! Animi, explicabo?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="blocks_team_item">
+                            <div class="image">
+                                <div class="overlay"></div>
+                                <img src="./image/baba.jpg" alt="">
+                                <a href="#" class="button_grey view_det">
+                                    view details
+                                </a>
+
+                                <div class="btn_groups">
+                                    <a href="#" class="button_grey btn_soc">
+                                        Fb
+                                    </a>
+                                    <a href="#" class="button_grey btn_soc">
+                                        Ln
+                                    </a>
+                                    <a href="#" class="button_grey btn_soc">
+                                        Tw
+                                    </a>
+                                    <a href="#" class="button_grey btn_soc">
+                                        Vk
+                                    </a>
+                                </div>
+                                <span>
+                                    01.
+                                </span>
+                            </div>
+
+                            <div class="info">
+                                <h3>
+                                    <a href="#">
+                                        Alica Limishenko
+                                    </a>
+                                </h3>
+
+                                <div class="spec">
+                                    Architect / Designer
+                                </div>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatum
+                                    sapiente, deserunt temporibus nihil quis quia eveniet eos repellendus? Architecto
+                                    aspernatur, nobis quidem itaque nulla quibusdam numquam alias! Animi, explicabo?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="blocks_team_item">
+                            <div class="image">
+                                <div class="overlay"></div>
+                                <img src="./image/baba.jpg" alt="">
+                                <a href="#" class="button_grey view_det">
+                                    view details
+                                </a>
+
+                                <div class="btn_groups">
+                                    <a href="#" class="button_grey btn_soc">
+                                        Fb
+                                    </a>
+                                    <a href="#" class="button_grey btn_soc">
+                                        Ln
+                                    </a>
+                                    <a href="#" class="button_grey btn_soc">
+                                        Tw
+                                    </a>
+                                    <a href="#" class="button_grey btn_soc">
+                                        Vk
+                                    </a>
+                                </div>
+                                <span>
+                                    01.
+                                </span>
+                            </div>
+
+                            <div class="info">
+                                <h3>
+                                    <a href="#">
+                                        Alica Limishenko
+                                    </a>
+                                </h3>
+
+                                <div class="spec">
+                                    Architect / Designer
+                                </div>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatum
+                                    sapiente, deserunt temporibus nihil quis quia eveniet eos repellendus? Architecto
+                                    aspernatur, nobis quidem itaque nulla quibusdam numquam alias! Animi, explicabo?
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- clients reviews -->
+                <div class="section section_testimonial">
+                    <div class="heading_text">
+                        <h2>
+                            our awesome <span>team</span>
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam exercitationem, voluptates
+                            voluptas maiores odio facilis incidunt id aspernatur sit, cum sunt fugiat, perspiciatis
+                            quibusdam deleniti minima molestiae repellendus quae deserunt.
+                        </p>
+                    </div>
+
+                    <div class="slider_rewviews">
+                        <div class="swiper slider_rewviews_test">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial_item">
+                                        <div class="name">
+                                            <img src="./image/client.jpg" alt="">
+                                            <a href="#">
+                                                Nicolo Svensky
+                                            </a>
+                                        </div>
+
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, dolorum
+                                            distinctio? Corrupti magni laborum odio harum impedit sequi sit! Quis
+                                            cupiditate et voluptatem recusandae provident aperiam officiis mollitia,
+                                            nihil nostrum.
+                                        </p>
+
+                                        <div class="item_num">
+                                            .04
+                                        </div>
+                                        <a href="#" class="btn_fac">
+                                            via facebook
+                                        </a>
+                                        <div class="znak">
+                                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial_item">
+                                        <div class="name">
+                                            <img src="./image/client.jpg" alt="">
+                                            <a href="#">
+                                                Nicolo Svensky
+                                            </a>
+                                        </div>
+
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, dolorum
+                                            distinctio? Corrupti magni laborum odio harum impedit sequi sit! Quis
+                                            cupiditate et voluptatem recusandae provident aperiam officiis mollitia,
+                                            nihil nostrum.
+                                        </p>
+
+                                        <div class="item_num">
+                                            .04
+                                        </div>
+                                        <a href="#" class="btn_fac">
+                                            via facebook
+                                        </a>
+                                        <div class="znak">
+                                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial_item">
+                                        <div class="name">
+                                            <img src="./image/client.jpg" alt="">
+                                            <a href="#">
+                                                Nicolo Svensky
+                                            </a>
+                                        </div>
+
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, dolorum
+                                            distinctio? Corrupti magni laborum odio harum impedit sequi sit! Quis
+                                            cupiditate et voluptatem recusandae provident aperiam officiis mollitia,
+                                            nihil nostrum.
+                                        </p>
+
+                                        <div class="item_num">
+                                            .04
+                                        </div>
+                                        <a href="#" class="btn_fac">
+                                            via facebook
+                                        </a>
+                                        <div class="znak">
+                                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial_item">
+                                        <div class="name">
+                                            <img src="./image/client.jpg" alt="">
+                                            <a href="#">
+                                                Nicolo Svensky
+                                            </a>
+                                        </div>
+
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, dolorum
+                                            distinctio? Corrupti magni laborum odio harum impedit sequi sit! Quis
+                                            cupiditate et voluptatem recusandae provident aperiam officiis mollitia,
+                                            nihil nostrum.
+                                        </p>
+
+                                        <div class="item_num">
+                                            .04
+                                        </div>
+                                        <a href="#" class="btn_fac">
+                                            via facebook
+                                        </a>
+                                        <div class="znak">
+                                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="swiper-pagination-2"></div>
+                        <div class="next_prev_2">
+                            <div class="swiper_review_next">
+                                <i class="fa fa-angle-left"></i>
+                            </div>
+                            <div class="swiper_review_prev">
+                                <i class="fa fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid_partners">
+                        <div class="partners_item">
+                            <img src="./image/partner.png" alt="">
+                        </div>
+                        <div class="partners_item">
+                            <img src="./image/partner.png" alt="">
+                        </div>
+                        <div class="partners_item">
+                            <img src="./image/partner.png" alt="">
+                        </div>
+                        <div class="partners_item">
+                            <img src="./image/partner.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- лева часть контента -->
+            <div class="content_items_info_home">
+                <div class="scroll-down-mouses">
+                    <div class="mouse">
+                        <div class="scrolling">
+                        </div>
+                    </div>
+                </div>
+                <div class="background_black"></div>
+                <div class="fwc_dec_top">
+
+                </div>
+                <div class="fwc_dec_right">
+
+                </div>
+                <div class="fixed-column-wrap_dec"></div>
+                <div id="section_item1" class="section_item1">
+                    <img src="./image/item.jpg" alt="">
+                    <div id="desc_title_item" class="desc_title_item">
+                        <h2>
+                            1.0 About us
+                        </h2>
+                        <p>
+                            sector down
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="height-emulator">
+        
+    </div>
+    <footer>
+        <div class="footer_decor" id="animation_footer">
+
+        </div>
+        <div class="footer_top">
+            <div class="pelzari_about_widget">
+                <a href="#" class="footer_logo">
+                    <img src="./image/logo2.png" alt="">
+                </a>
+                <p class="footer_text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nisi facilis incidunt consequuntur,
+                    dolores corrupti dignissimos architecto magni cupiditate eum inventore alias adipisci quaerat
+                    voluptatem. Animi in quasi neque veritatis.
+                </p>
+            </div>
+
+            <div class="pelzari_about_widget">
+                <div class="footer_header_top">
+                    contacts
+                    <span>01.</span>
+                </div>
+                <div class="footer_contacts">
+                    <ul>
+                        <li>
+                            <span>Write:</span>
+                            <a href="#">
+                                YOURMAIL@DOMAIN.COM
+                            </a>
+                        </li>
+                        <li>
+                            <span>Write:</span>
+                            <a href="#">
+                                YOURMAIL@DOMAIN.COM
+                            </a>
+                        </li>
+                        <li>
+                            <span>Write:</span>
+                            <a href="#">
+                                YOURMAIL@DOMAIN.COM
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <a href="#" class="button_grey">
+                    Get in touch
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+
+            <div class="pelzari_about_widget">
+                <div class="footer_header_top">
+                    contacts
+                    <span>02.</span>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, voluptas eaque dolorum
+                    similique ipsa excepturi corrupti labore?
+                </p>
+                <div class="form_newslatter">
+                    <input type="email" name="email" placeholder="Ваш email">
+                    <input type="submit" value="Отправить" class="button_black">
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="privaty_res">
+                © Pelzari 2021 / All rights reserved.
+            </div>
+            <div class="footer_social">
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">
+                            FB
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            Tw
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            Ln
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            Be
+                        </a>
+                    </li>
+                </ul>
+                <button class="to_top" type="button">
+                    <i class="fa fa-long-arrow-up"></i>
+                </button>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+    
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
